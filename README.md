@@ -1,1 +1,1 @@
-# Resmic PRO Demo React JS # DEMO_ResmicPRO
+# Resmic PRO Demo React JS

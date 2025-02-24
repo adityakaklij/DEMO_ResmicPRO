@@ -1,0 +1,87 @@
+.product{
+    height: 33rem;
+    width: 23rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.product-img img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.product-img{
+    border: .5px solid rgba(148, 147, 147, 0.461);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    padding-top: 3rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.product-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+
+.product-rating{
+    color: gold;
+}
+
+.product-info{
+    text-align: center;
+    font-weight: 600;
+    font-size: .8rem;
+    width: 60%;
+}
+
+.product-price{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.footer{
+    display: flex;
+    /* background: red; */
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 25%; */
+    width: 100%; 
+    margin: 0 auto;
+}
+.footer > * {
+    flex: 1; /* Let the child components stretch to fill available space */
+    text-align: center; /* Center text content inside the child components */
+}
+
+.buyNowButton{
+    background-color: "rgb(209,99,180)";
+    color: "#fff";
+    width:50%;
+    height: 3rem;
+    border: 0.5px solid rgb(213, 213, 213);
+    padding: "1rem";
+    border-radius:8px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: "none";
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    background-color: rgb(209, 99, 180);
+    
+}
