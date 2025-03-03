@@ -5,7 +5,7 @@ import axios from 'axios'
 
 export default function ProductNEW() {
 
-    const RESMIC_API_ENDPOINT = "https://payments.resmic.com";
+    const RESMIC_API_ENDPOINT = "https://api.resmic.com";
 
     const makePayment = async() => {
 
